@@ -1,4 +1,4 @@
-function [corr_ROI1_ROI2] = NC_v2v_FC(funcFile,ROI1file,ROI2file)
+function [corr_ROI1_ROI2] = rsfMRI_Fig5E_02_v2v_FC(funcFile,ROI1file,ROI2file)
 
 % ROI-to-ROI voxel analysis
 ROIdir = '/Users/Catherine/Documents/Data/rsMRI/ROIs/HAVLAF/';
