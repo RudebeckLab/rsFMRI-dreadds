@@ -63,8 +63,8 @@ for abc = 1:length(Post_Errts_File)
             Corr_Order(:,strt_indx+1) = {ROI2; ROI1};
             
             
-            pre_corrs = NC_v2v_FC(Pre_Errts_File{abc},ROI1,ROI2);
-            post_corrs = NC_v2v_FC(Post_Errts_File{abc},ROI1,ROI2);
+            pre_corrs = rsfMRI_Fig5E_02_v2v_FC(Pre_Errts_File{abc},ROI1,ROI2);
+            post_corrs = rsfMRI_Fig5E_02_v2v_FC(Post_Errts_File{abc},ROI1,ROI2);
             
             Pre_corrs_files{abc} = pre_corrs(:,:);
             Post_corrs_files{abc} = post_corrs(:,:);
