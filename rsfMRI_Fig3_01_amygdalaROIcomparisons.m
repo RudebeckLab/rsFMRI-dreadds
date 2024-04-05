@@ -1,5 +1,6 @@
 %Author: Catherine Elorette, Icahn School of Medicine at Mount Sinai
 %This script requires the SPM software package
+%This script uses amygdala ROI correlation files that have previously been generated in AFNI using standard commands (i.e. 3dTcorr1D)
 
 clear all; close all;
 
