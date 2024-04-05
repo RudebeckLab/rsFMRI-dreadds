@@ -1,4 +1,4 @@
-function [Data] = NCConnectomesGeneration(Atlas,level,subjname,diff_scaling)
+function [Data] = rsfMRI_Fig4_01_ConnectomesGeneration(Atlas,level,subjname,diff_scaling)
 % Comparing Connectomes 
 
 if nargin < 2 
