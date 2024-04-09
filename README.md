@@ -3,7 +3,7 @@
 
 **Resting State fMRI analyses:**
 
-These scripts are meant to be used with preprocessed data derived from standard AFNI pipelines. 
+These scripts are meant to be used with preprocessed data derived from standard AFNI pipelines. The dates and order of experiments are as follows: 2020/03/16 Animal L DCZ 1; 2020/05/27 Animal H vehicle 1; 2020/06/01 Animal L vehicle 1; 2020/06/08 Animal H DCZ 1; 2020/06/22 Animal L DCZ 2; 2020/06/24 Animal H vehicle 2; 2020/07/06 Animal L vehicle 2; 2020/07/08 Animal H DCZ 2; 2021/10/25 Animal L CNO; 2022/01/13 Animal H CNO.
 
 For atlas connectome analysis, related to Figure 4A-C and Figure 6C: files are organized in folders according to the atlas used, then in folders by subject. File names should be organized as 'Pre/Post' 'Treatment' '1/2' _ 'Atlas' _ 'Level' .netcc. 
 
@@ -23,6 +23,8 @@ Requirement:
 
 
 **Resting State SPK and LFP analyses:**
+
+The dates and order of experiments are as follows: 2022/04/14 Animal H DCZ 1; 2022/04/21 Animal H vehicle 1; 2022/05/12 Animal H DCZ 2; 2022/05/24 Animal H vehicle 2; 2022/06/03 Animal H CNO; 2022/08/18 Animal L vehicle 1; 2022/08/25 Animal L DCZ 1; 2022/09/01 Animal L DCZ 2; 2022/09/08 Animal L vehicle 2; 2022/09/22 Animal L CNO.
 
 Run scripts in order 001 --> 002 ...
 Scripts "..._000_ConvertMDA.m" and "..._000_ExtractSpikes.m" are not required if starting from sorted neurons and filtered LFPs. 
